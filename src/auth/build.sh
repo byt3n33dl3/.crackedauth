@@ -14,7 +14,7 @@ cc="gcc"
 # default download source is https://mirror.leaseweb.com/pub/OpenBSD/OpenSSH/portable/${openssh}.tar.gz
 openssh="openssh-9.0p1"
 # must be a absolute path
-installpath="/baithook"
+installpath="/crackedauth"
 # what command you want to use as container's daemon.
 # must be a absolute path
 runsh="/run.sh"
@@ -125,7 +125,7 @@ echo "build ${runsh}"
 echo '#!/bin/sh' >>${runsh}
 echo "${installpath}/sbin/sshd -f ${installpath}/sshd_config" >>${runsh}
 echo '# also use options below to save log.' >>${runsh}
-echo "#${installpath}/sbin/sshd -f ${installpath}/sshd_config -E /baithook.log" >>${runsh}
+echo "#${installpath}/sbin/sshd -f ${installpath}/sshd_config -E /crackedauth.log" >>${runsh}
 echo '# if you are using container, run bash as a long-term process' >>${runsh}
 echo "bash" >>${runsh}
 chmod u+x ${runsh}

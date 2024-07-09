@@ -2,6 +2,6 @@
 
 #define SSH_VERSION	"OpenSSH_9.0"
 
-// specialized for baithook
-#define SSH_PORTABLE	"p1-baithook"
+// specialized for crackedauth
+#define SSH_PORTABLE	"p1-crackedauth"
 #define SSH_RELEASE	SSH_VERSION SSH_PORTABLE
