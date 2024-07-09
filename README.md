@@ -9,13 +9,13 @@
 
 Authentication cracker - trust attack
 
-## 🌟 Features
+## Features
 
-- [x] Easy to use. Keep your code clear.
-- [x] Support CDE modes: Before, Instead, After and Dead.
-- [x] Let you modify return value and arguments.
-- [x] Support invoking original implementation.
-- [x] Remove CDE at any time.
+> - Easy to use. Keep your code clear.
+- Support CDE modes: Before, Instead, After and Dead.
+- Let you modify return value and arguments.
+> - Support invoking original implementation.
+> - Remove CDE at any time.
 
 ```shell
 NSObject *z = NSObject.new;
